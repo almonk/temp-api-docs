@@ -10,7 +10,7 @@ $payment_details = array(
     'first_name'    => 'Alasdair',
     'last_name'     => 'Monk',
     'email'         => 'alasdair.monk@gmail.com'
-    )
+  )
 );
 
 $pre_auth_url = GoCardless::new_pre_authorization_url($payment_details);
