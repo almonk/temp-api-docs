@@ -51,4 +51,4 @@ A cancel_uri can only be provided in the request if one is also set on the accou
 
 Once the user has given authorization for one of these resources to be created, it will exist in an 'inactive' state. The user will be redirected (a GET request) back to the URI specified.
 
-You must verify the resource otherwise it will be removed within a short period of time.
+You must [verify the resource]() otherwise it will be removed within a short period of time.
